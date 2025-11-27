@@ -29,6 +29,36 @@
 
                 </a>
 
+                <div class="navbar-expand" id="navbarSupportedContent">
+
+                    <nav class="navbar navbar-expand-lg bg-body-dark ">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-expand-lg" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Catalogo libri</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Anagrafica studenti</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Storico prestiti</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Help</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
 
                 <button type="button" class="btn btn-outline-secondary ms-auto"><i class="fa-solid fa-bars"
                         style="color: #d1d1d1;"></i></button>
@@ -44,7 +74,7 @@
         <div class="row p-2 mb-3">
 
 
-            <div class="col d-flex justify-content-start">
+            <div class="col">
 
                 <h3>Nuovo Libro</h3>
 
@@ -56,18 +86,22 @@
 
             <form>
 
-                <div class="d-flex flex-nowrap gap-3">
+                <div class="gap-3">
 
-                    <div class="mb-3 ">
-                        <label for="nome-autore" class="form-label">Nome Autore</label>
-                        <input type="text" class="form-control" id="nome-autore"
-                            placeholder="Inserisci il nome dell'utente">
-                    </div>
+                    <div class="row">
 
-                    <div class="mb-3 ml-1">
-                        <label for="cognome-autore" class="form-label">Cognome Autore</label>
-                        <input type="text" class="form-control" id="cognome-autore"
-                            placeholder="Inserisci il cognome dell'utente">
+                        <div class="col-6 col-md-6 mb-3">
+                            <label for="nome-autore" class="form-label">Nome Autore</label>
+                            <input type="text" class="form-control" id="nome-autore"
+                                placeholder="Inserisci il nome dell'utente">
+                        </div>
+
+                        <div class="col-6 col-md-6 mb-3 ml-1">
+                            <label for="cognome-autore" class="form-label">Cognome Autore</label>
+                            <input type="text" class="form-control" id="cognome-autore"
+                                placeholder="Inserisci il cognome dell'utente">
+                        </div>
+
                     </div>
 
                 </div>
@@ -114,7 +148,8 @@
 
                 <div class="mb-3">
                     <label for="" class="form-label">Note</label>
-                    <textarea class="form-control" id="notespace" rows="3" placeholder="Inserisci eventuali note su libro"></textarea>
+                    <textarea class="form-control" id="notespace" rows="3"
+                        placeholder="Inserisci eventuali note su libro"></textarea>
                 </div>
 
                 <div class="mb-3 form-check">
