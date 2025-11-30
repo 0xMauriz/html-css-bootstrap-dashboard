@@ -15,57 +15,43 @@
 
 <body>
 
-    <section class="container-fluid p-md-0 p-0">
+    <section class="container-fluid p-0 p-lg-0">
 
-        <nav class="navbar text-bg-dark">
+        <nav class="navbar navbar-expand-lg bg-body-dark text-bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-expand-lg navbar-brand" href="#"><img src="./img/duck.png" alt="Bootstrap" width="60"
+                        height="60"></a>
+                <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-            <div class="container-fluid justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Catalogo libri</a>
+                        </li>
 
-                <nav class="navbar navbar-expand-lg bg-body-dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="./img/duck.png" alt="Bootstrap" width="60"
-                                height="60"></a>
-                        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Anagrafica studenti</a>
+                        </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link active text-white" aria-current="page" href="#">Catalogo libri</a>
-                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Storico prestiti</a>
+                        </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Anagrafica studenti</a>
-                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Help</a>
+                        </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link active text-white" aria-current="page" href="#">Storico prestiti</a>
-                                </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search" />
+                        <button class="btn btn-outline-success d-none d-lg-flex" type="submit">Cerca</button>
 
-                                <li class="nav-item">
-                                    <a class="nav-link active text-white" aria-current="page" href="#">Help</a>
-                                </li>
-
-                            </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Cerca"
-                                    aria-label="Search" />
-                                <button class="btn btn-outline-success d-none d-lg-flex" type="submit">Cerca</button>
-
-                            </form>
-                        </div>
+                    </form>
+                </div>
 
 
-                                <button type="button" class="btn btn-outline-secondary ms-auto d-lg-none m"><i
-                                        class="fa-solid fa-bars" style="color: #d1d1d1;"></i></button>
-                    </div>
-                </nav>
-
+                <button type="button" class="btn btn-outline-secondary ms-auto d-lg-none m"><i class="fa-solid fa-bars"
+                        style="color: #d1d1d1;"></i></button>
             </div>
-
         </nav>
 
     </section>
